@@ -71,6 +71,7 @@ public class Sorting {
 			int position = index;
 			// Shift larger values to the right
 			while (position > 0 && key.compareTo(list[position - 1]) > 0) {
+				
 				list[position] = list[position - 1];
 				position--;
 			}

@@ -35,7 +35,7 @@ public class Shape2DApp {
 				shapes[i] = new Circle(r);
 				break;
 			case 4:
-				System.out.print("Enter base");
+				System.out.print("Enter base: ");
 				double b = sc.nextDouble();
 				System.out.print("Enter height: ");
 				double h = sc.nextDouble();

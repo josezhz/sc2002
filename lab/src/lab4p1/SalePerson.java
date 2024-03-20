@@ -20,7 +20,10 @@ public class SalePerson implements Comparable<SalePerson> {
 	}
 
 	public int compareTo(SalePerson o) {
-		return totalSales - o.getTotalSales();
+		if (totalSales - o.getTotalSales() != 0)
+			return totalSales - o.getTotalSales();
+		else
+			return -lastName.compareTo(o.getLastName());
 	}
 
 	public String getFirstName() {

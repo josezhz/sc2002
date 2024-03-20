@@ -61,7 +61,7 @@ public class Lab2p1 {
 				Scanner sc8 = new Scanner(System.in);
 				System.out.print("n : ");
 				long n5 = sc8.nextInt();
-				System.out.println("oddDigits = " + extractOddDigits(n5));
+				System.out.println("oddDigits = " + (n5 < 0 ? "Error input!!" : extractOddDigits(n5)));
 				break;
 			case 7:
 				System.out.println("Program terminating...");
